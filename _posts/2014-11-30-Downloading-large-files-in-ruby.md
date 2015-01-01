@@ -17,7 +17,7 @@ response = Net::HTTP.get_response(uri)
 
 ```
 
-This will bloat up the memory and your system will become unresposive. In order the mitigate this problem, we need to write a function that downloads the file in segments, and ensure that it doesn't keep the downloaded data in memory until the entire download is complete.
+This will bloat up the memory and your system will become unresponsive. In order the mitigate this problem, we need to write a function that downloads the file in segments, and ensure that it doesn't keep the downloaded data in memory until the entire download is complete.
 Here is the function that I have written to accomplish that:
 
 ```ruby
