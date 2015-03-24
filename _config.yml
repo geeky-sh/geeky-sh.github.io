@@ -2,7 +2,7 @@
 title: In Love With Simplicity
 email: aash.discover@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is a place where I  write interesting things that I encounter
+  This is a place where I intend to write interesting things that I encounter
   in my life as a programmer. Sometimes, I also try to write my thoughts
   and opinions about various things that I come across.
 baseurl: "" # the subpath of your site, e.g. /blog/
