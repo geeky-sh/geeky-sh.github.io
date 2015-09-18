@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Self-Executing functions in Javascript
+categories: Technical
 ---
 
 # Self executing functions in Javascript

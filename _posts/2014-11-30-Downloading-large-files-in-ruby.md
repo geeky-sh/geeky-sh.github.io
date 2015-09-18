@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Downloading Large files in ruby 
+categories: Technical
 ---
 
 # Downloading large files in ruby
