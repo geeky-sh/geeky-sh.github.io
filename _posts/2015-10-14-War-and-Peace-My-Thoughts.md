@@ -1,7 +1,7 @@
 ---
 layout: page
 title: My thoughts on War and Peace by Leo Tolstoy
-categories: Non-technical
+categories: book
 ---
 
 Something seemed incomplete when I didn't write anything about this magnificent classic. Now when I have already shifted to another book to read, I miss the writings of Leo Tolstoy. It feels like something is missing in my life. I would term this book more as a philosophical novel than a historical book. 
