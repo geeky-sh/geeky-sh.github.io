@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Motley's a walk in the woods
+title: Motley's A walk in the woods
 categories: play
 ---
 
