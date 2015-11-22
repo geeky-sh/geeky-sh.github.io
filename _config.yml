@@ -3,13 +3,13 @@ title: In Love With Simplicity
 email: aash.discover@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I am a programmer by profession. This is a place where I intend to write useful things
-  that I encounter in my professional life. I want to use this site as a notepad which I can come back later
-  and use it as a reference.
-  I also like to write. So there might be a couple of posts where I would try to make sincere efforts to write
+  that I encounter in my professional life.<br/>
+  I also like to write. There might be a couple of posts where I would try to make sincere efforts to write
   something good and interesting.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.aashd.me" # the base hostname & protocol for your site
 github_username:  geeky-sh
+avatar: //graph.facebook.com/v2.1/1118395952/picture?height=50&width=50
 
 # Build settings
 markdown: redcarpet
