@@ -2,9 +2,9 @@
 layout: post
 title: Python Decorators
 description: This article depicts what python decorators are and how they can be used in the context of Django
-categories: Technical, Python
+categories: Technical
 ---
-
+o
 ## What are Decorators and Python Decorators?
 
 If you look for Decorator pattern on [wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern), you will find:
@@ -143,3 +143,4 @@ https://wiki.python.org/moin/PythonDecorators
 https://artemrudenko.wordpress.com/2013/04/15/python-why-you-need-to-use-wraps-with-decorators/
 
 http://python-3-patterns-idioms-test.readthedocs.org/en/latest/PythonDecorators.html
+
