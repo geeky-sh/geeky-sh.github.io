@@ -4,7 +4,6 @@ title: Python Decorators
 description: This article depicts what python decorators are and how they can be used in the context of Django
 categories: Technical
 ---
-o
 ## What are Decorators and Python Decorators?
 
 If you look for Decorator pattern on [wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern), you will find:
