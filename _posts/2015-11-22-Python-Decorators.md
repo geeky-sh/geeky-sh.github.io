@@ -133,7 +133,7 @@ print name() # returns Hello Aash. I am a class. What can I do for you?
 The important thing to realize is that the decorator should be callable. It doesn't matter if it is a class or a function. 
 
 
-### References:
+## References:
 
 http://stackoverflow.com/questions/4650333/difference-between-decorator-classes-and-decorator-functions
 
@@ -142,5 +142,6 @@ https://wiki.python.org/moin/PythonDecorators
 https://artemrudenko.wordpress.com/2013/04/15/python-why-you-need-to-use-wraps-with-decorators/
 
 http://python-3-patterns-idioms-test.readthedocs.org/en/latest/PythonDecorators.html
+
 
 
