@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Childhood Memories
-description: Remembering old times when things were simple, when our mind weren't that mature to fill the upper box with steam of varied thoughts
+description: Remembering old times when things were simple, feelings were puerile, and being happy was easy.
 categories: Non-Technical
 ---
 
