@@ -12,7 +12,7 @@ github_username:  geeky-sh
 avatar: //graph.facebook.com/v2.1/1118395952/picture?height=50&width=50
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 
 
 redcarpet:
