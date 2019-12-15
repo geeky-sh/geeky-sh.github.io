@@ -4,7 +4,7 @@ title: Life in Gurgaon - I
 categories: Technical
 ---
 
-##Life in Gurgaon - I
+## Life in Gurgaon - I
 
 I came to this city a few months after graduation. Fortunately, I had a few of my college friends who were already working there. They were looking for a new house to move in and needed a flatmate. Thus, when I came, the place of stay was available and I had little trouble moving in.
 
