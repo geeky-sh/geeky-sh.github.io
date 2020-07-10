@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Life in Gurgaon - I
-categories: Technical
 ---
 
 ## Life in Gurgaon - I

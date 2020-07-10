@@ -2,7 +2,6 @@
 layout: post
 title: Chinese Coffee
 description: Hoshruba Repertory's Chinese Coffee - A Play by Ira Lewis
-categories: Non-Technical
 ---
 
 ![Chinese Coffeee](/images/chinese-coffee.jpg)

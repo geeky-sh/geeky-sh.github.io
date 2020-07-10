@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Downloading Large files in ruby 
 categories: Technical
 ---
 
@@ -9,7 +8,7 @@ categories: Technical
 When you are downloading large files using `net/http` or `Faraday`, you can't just do:
 
 ```ruby
-Faraday.get(url) 
+Faraday.get(url)
 
 ## or
 

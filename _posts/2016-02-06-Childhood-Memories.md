@@ -2,7 +2,6 @@
 layout: post
 title: Childhood Memories
 description: Remembering old times when things were simple, feelings were puerile, and being happy was easy.
-categories: Non-Technical
 ---
 
 Having learned to wake up at the sound of the alarm, I woke up at 6 in the morning. School started at 7:30. I liked to do my morning chores without worrying about being late. In addition, I loved to stroll on the terrace for a while - breathe in the fresh air of the early morning. We have a wide two-seater wooden hammock on the terrace. Sitting on a hammock, clueless, I was relishing the morning quietness which would soon be replaced by noisy traffic that would persist the whole day. I went inside to brush my teeth when my eyes saw the time on the wall-clock. I was late. I had to hurry since I didn't want to miss the glimpse of her. Also, I didn't want to be late to school but that didn't matter much.

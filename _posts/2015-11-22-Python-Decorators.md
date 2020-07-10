@@ -2,7 +2,6 @@
 layout: post
 title: Python Decorators
 description: This article depicts what python decorators are and how they can be used in the context of Django
-categories: Technical
 ---
 ## What are Decorators and Python Decorators?
 
@@ -10,22 +9,22 @@ If you look for Decorator pattern on [wikipedia](https://en.wikipedia.org/wiki/D
 
 >In object-oriented programming, the decorator pattern (also known as Wrapper, an alternative naming shared with the Adapter pattern) is a design pattern that allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class
 
-In python, decorators are used to alter the funtionality of the methods without changing the code of the function. It is not exactly same as Decorator pattern but some analogy can be made between them as they are quite similar. Simply put, decorators decorate the function by adding some extra features to the function. The major advantage of using decorators is that it provides [separation of concern](https://en.wikipedia.org/wiki/Separation_of_concerns). Things like validation, authentication, authorization can go to one place and can be used at multiple locations without worrying about its implementation everytime. Also, one knows where should one look if one needs to change the strategy used in any of the above function and it will be reflected everywhere. 
+In python, decorators are used to alter the funtionality of the methods without changing the code of the function. It is not exactly same as Decorator pattern but some analogy can be made between them as they are quite similar. Simply put, decorators decorate the function by adding some extra features to the function. The major advantage of using decorators is that it provides [separation of concern](https://en.wikipedia.org/wiki/Separation_of_concerns). Things like validation, authentication, authorization can go to one place and can be used at multiple locations without worrying about its implementation everytime. Also, one knows where should one look if one needs to change the strategy used in any of the above function and it will be reflected everywhere.
 
 
 ## Where are they used?
 
-In web development specifically, decorators are generally used for validations, memoization, adding filters, etc. All the authorization and authentication libraries provide decorators that do the job of validating the requests. For example you can add `@login_required` above every view method that requires authentication. You can write `@authenticate_api` above every API view that reqiures headers authentication. And as the decorator code resides in a separate function, it can be used on any no. of methods for validation. 
+In web development specifically, decorators are generally used for validations, memoization, adding filters, etc. All the authorization and authentication libraries provide decorators that do the job of validating the requests. For example you can add `@login_required` above every view method that requires authentication. You can write `@authenticate_api` above every API view that reqiures headers authentication. And as the decorator code resides in a separate function, it can be used on any no. of methods for validation.
 It can also be used for caching the responses of a function i.e memoization. It can take in the request parameters that come from the decorated function, construct a key of it, try to fetch its value from the cache, return the value if found, else perform the computation that resides in the decorated function. It allows you to write the caching logic only once in the decorator. You can then use it anywhere in your project without going through caching woes everytime you add something
 
 
-## How to use them? (Some examples) 
+## How to use them? (Some examples)
 
 There are two ways to construct decorators:
 
 ###Using Functions:
 
-Python has a useful feature of passing functions as variables. This feature is the basis of how decorators work. The decorator will take the function that it has to modify, add some additional code and return the modified function. Now, whenever the decorated function is called, the function returned by the decorator is called instead. See the below example for its implementation 
+Python has a useful feature of passing functions as variables. This feature is the basis of how decorators work. The decorator will take the function that it has to modify, add some additional code and return the modified function. Now, whenever the decorated function is called, the function returned by the decorator is called instead. See the below example for its implementation
 
 ```python
 """
@@ -98,7 +97,7 @@ def welcome(func):
     def _inner(*args, **kargs):
         return "Welcome " + func(*args, **kargs) + "!"
     return _inner
- 
+
 @eat
 @welcome
 def name():
@@ -124,13 +123,13 @@ class java_kind_of_welcome:
 
 @java_kind_of_welcome
 def name():
-    return "Aash" 
+    return "Aash"
 
 print name() # returns Hello Aash. I am a class. What can I do for you?
 
 ```
 
-The important thing to realize is that the decorator should be callable. It doesn't matter if it is a class or a function. 
+The important thing to realize is that the decorator should be callable. It doesn't matter if it is a class or a function.
 
 
 ## References:
@@ -142,6 +141,3 @@ https://wiki.python.org/moin/PythonDecorators
 https://artemrudenko.wordpress.com/2013/04/15/python-why-you-need-to-use-wraps-with-decorators/
 
 http://python-3-patterns-idioms-test.readthedocs.org/en/latest/PythonDecorators.html
-
-
-

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Confessions - The dark side
-categories: play
 ---
 
 ![Confessions - the dark side](/images/confessions.jpg)

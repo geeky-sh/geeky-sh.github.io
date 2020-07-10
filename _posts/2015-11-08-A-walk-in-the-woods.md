@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Motley's A walk in the woods
-categories: play
 ---
 
 ![A walk in the woods](/images/woods.jpg)

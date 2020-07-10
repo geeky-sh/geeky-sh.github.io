@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Few Important Things a Ruby Programmer should know - Series
-categories: technical
 ---
 
 Ruby is a developer-friendly language. There are multiple ways to do a certain thing and it is the developer's responsibility to choose the method that suits him. The freedom that a developer gets while coding in Ruby in terms of how one writes and structures one's code is immense. Initially, while starting out, coming from learning languages like C and Java, Ruby appeared an alien counterpart. But as I got familiar with the language, my interest in Ruby grew more. It made my coding experience a fun activity. As I became more and more used to the ruby-way of doing things, I was able to focus more on design and architechturing the problem at hand rather than worrying about the implementation caveats.

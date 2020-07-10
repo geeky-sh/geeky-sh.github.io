@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Self-Executing functions in Javascript
-categories: Technical
 ---
 
 # Self executing functions in Javascript
@@ -10,7 +9,7 @@ categories: Technical
 ### Reason for using self-executing functions:
 
 
-Sometimes, we would want to write a complex function in javascript. In order to write that we would make use of multiple functions that would independently serve as blackboxes. We would need to define tons of variables to acccomplish the logic. But to the user, we woould only want to expose one or two functions to be used by him. Also, we don't want our variables to pollute the global namespace. 
+Sometimes, we would want to write a complex function in javascript. In order to write that we would make use of multiple functions that would independently serve as blackboxes. We would need to define tons of variables to acccomplish the logic. But to the user, we woould only want to expose one or two functions to be used by him. Also, we don't want our variables to pollute the global namespace.
 
 Now, comes the utility of self-executing functions. There are two ways we can define them
 
@@ -30,9 +29,9 @@ A function when placed inside parenthesis or beside ! can be visualized to send 
 }(window.jQuery)
 ```
 
-Though this is not a good way to add a jquery function (we should use extend instead), but it illustrates my point. Also any variables defined in the function can't be accessed in the browser i.e they are not defined in the global namespace. 
+Though this is not a good way to add a jquery function (we should use extend instead), but it illustrates my point. Also any variables defined in the function can't be accessed in the browser i.e they are not defined in the global namespace.
 
-Normally, every jquery plugin is defined this way.  
+Normally, every jquery plugin is defined this way.
 
 Also the reason why this is called a self-executing function is because we don't have to call the function to execute. It is defined and executed simultaneously
 

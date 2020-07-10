@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Ruby - A Pure Object-Oriented Language
-categories: Technical
 ---
 
 I will start with defining classes in ruby, which can be done in two ways:

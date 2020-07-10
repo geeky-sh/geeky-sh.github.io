@@ -2,7 +2,6 @@
 layout: post
 title: How to read?
 description: Step by step instructions that I have learnt from my experience on how to read books effectively
-categories: Non-Technical
 ---
 
 I want to elaborate on how I should read to entail maximum benefit from the activity.

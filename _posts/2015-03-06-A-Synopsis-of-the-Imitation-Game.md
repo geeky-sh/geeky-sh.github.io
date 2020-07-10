@@ -1,7 +1,6 @@
 ---
 layout: post
 title: The Imitation Game - Synopsis
-categories: Non-technical
 ---
 
 

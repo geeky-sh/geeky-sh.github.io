@@ -1,35 +1,34 @@
 ---
 layout: page
 title: Singleton classes in Ruby
-categories: Technical
 ---
 
-Understainding Singleton classes is extremely important for anyone programming in Ruby. Singleton classes explain how the concept of class/static method works in Ruby. It also explains how you can attach standalone methods to a particular object. 
+Understainding Singleton classes is extremely important for anyone programming in Ruby. Singleton classes explain how the concept of class/static method works in Ruby. It also explains how you can attach standalone methods to a particular object.
 
-There are certain methods (like `methods`, `singleton_methods`, `instance_methods`, `object_id`) which prove extremely useful in getting the details of the class or understanding what actually happens in the background. 
+There are certain methods (like `methods`, `singleton_methods`, `instance_methods`, `object_id`) which prove extremely useful in getting the details of the class or understanding what actually happens in the background.
 
-Firstly, how are class methods implemented in Ruby? 
+Firstly, how are class methods implemented in Ruby?
 
 class/static methods are nothing but the methods that reside in the singleton class of any instance. For example consider the class below:
 
 ```ruby
 class User
   attr_accessor :name, :email
-  
+
   def initialize(name, email)
     self.name = name
     self.email = email
   end
-  
+
   def details
     "#{name} - #{email}"
   end
-  
+
   def self.is_human?
     true
   end
 end
-``` 
+```
 
 ```ruby
 User.singleton_methods ## returns [:is_human?]
