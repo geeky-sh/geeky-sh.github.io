@@ -4,7 +4,7 @@ title: Frequently used Keyboard shortcuts in Intellij / Pycharm
 description: These are the shortcuts that I use frequently when I code
 ---
 
-My go-to editor for python development is VSCode. However, there were a few times where I used to waste a lot of time in fixing silly mistakes, particularly while calling the methods of variables for an object. I noticed that when we invoke a wrong method call for an object, vs-code doesn't hightlight it. It highlights only the incorrect methods, variables or modules in the local namespace.
+My go-to editor for python development is VSCode. However, there were a few times where I used to waste a lot of time in fixing silly mistakes, particularly while calling the methods or variables of an object. I noticed that when we invoke a wrong method call for an object, vs-code doesn't hightlight it. It highlights only the incorrect methods, variables or modules in the local namespace.
 
 So, I tried to give pycharm a try. However, I soon realised the common keyboard shortcuts that were on my fingertips in VSCode and which made my development easier were needed in pycharm too. This is a post where is list down some of the shortcuts that I use frequetly. I listed it down here so that I can refer to this in the future.
 
