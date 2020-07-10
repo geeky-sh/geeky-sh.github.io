@@ -17,3 +17,6 @@ markdown: kramdown
 
 redcarpet:
   extensions: ['autolink']
+
+plugins:
+  - jekyll-spaceship

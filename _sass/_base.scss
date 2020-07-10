@@ -202,3 +202,29 @@ pre {
         }
     }
 }
+
+table{
+    border-collapse: collapse;
+    border-spacing: 1px;
+    border:1px solid #dedede;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+th{
+    border:1px solid #dedede;
+    padding: 5px;
+    background-color: grey;
+    color: ivory;
+    p {
+        margin: 5px;
+    }
+}
+
+td{
+    border:1px solid #dedede;
+    padding: 10px;
+    p {
+        margin: 5px;
+    }
+}
