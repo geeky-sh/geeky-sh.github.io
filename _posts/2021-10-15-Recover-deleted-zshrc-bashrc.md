@@ -4,6 +4,8 @@ title: What to do when .zshrc OR .bashrc is deleted.
 description: Steps to recover most of the customizations made in the bashrc/zshrc
 ---
 
+![Recover lost file](/images/delete.jpg)
+
 ## Disclaimer:
 
 There is no default way to recover ~/.zshrc in case it is deleted. One can just try to recover everything that was customized in the file. Or one can step individual steps to ensure the file is recovered on routine basis
@@ -22,8 +24,8 @@ I searched online if there is a way to get back the old version of file. Unfortu
 2. `functions` - This would print all the functions present in the session. If there are any custom functions you had written in `~/.zshrc`, one can find it here.
 3. `alias -L` - This is one of the most helpful commands for me. I had created a lot aliases (shortcuts) to avoid writing long commands. Running this command prints all the `alias`es that are there in the current session. I was able to get all the custom aliases I had defined through this.
 
-### Missing Information
-- One will miss all the `source ..` commands one would have written in the deleted `~/.zshrc`. And one will have have to take extra pain to remember what was the `source ..` by looking at the environment variables in the session (`printenv`)
+### Potential misses
+1. One may miss all the `source ..` commands one would have written in the deleted `~/.zshrc`. And one will have have to take extra pain to remember what was the `source ..` by looking at the environment variables in the session (`printenv`)
 
 ## Future learning to avoid losing important files.
 1. It is better to keep a git repo containing one's configuration files. One just will need to keep pushing the changes regularly
