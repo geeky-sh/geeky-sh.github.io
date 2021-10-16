@@ -134,10 +134,7 @@ The important thing to realize is that the decorator should be callable. It does
 
 ## References:
 
-http://stackoverflow.com/questions/4650333/difference-between-decorator-classes-and-decorator-functions
-
-https://wiki.python.org/moin/PythonDecorators
-
-https://artemrudenko.wordpress.com/2013/04/15/python-why-you-need-to-use-wraps-with-decorators/
-
-http://python-3-patterns-idioms-test.readthedocs.org/en/latest/PythonDecorators.html
+- [http://stackoverflow.com/questions/4650333/difference-between-decorator-classes-and-decorator-functions](http://stackoverflow.com/questions/4650333/difference-between-decorator-classes-and-decorator-functions)
+- [https://wiki.python.org/moin/PythonDecorators](https://wiki.python.org/moin/PythonDecorators)
+- [https://artemrudenko.wordpress.com/2013/04/15/python-why-you-need-to-use-wraps-with-decorators/](https://artemrudenko.wordpress.com/2013/04/15/python-why-you-need-to-use-wraps-with-decorators/)
+- [http://python-3-patterns-idioms-test.readthedocs.org/en/latest/PythonDecorators.html](http://python-3-patterns-idioms-test.readthedocs.org/en/latest/PythonDecorators.html)
