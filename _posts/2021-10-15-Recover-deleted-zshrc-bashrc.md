@@ -8,7 +8,7 @@ description: Steps to recover most of the customizations made in the bashrc/zshr
 
 ## Disclaimer:
 
-There is no default way to recover ~/.zshrc in case it is deleted. One can just try to recover everything that was customized in the file. Or one can step individual steps to ensure the file is recovered on routine basis
+There is no default way to recover ~/.zshrc in case it is deleted. One can just try to recover everything that was customized in the file. Or one can take separate steps to ensure the file is backed up on routine basis
 
 ## Context:
 

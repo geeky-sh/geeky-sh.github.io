@@ -10,5 +10,5 @@ I came across these principles when learning the course - [Artificial Intelligen
 2. Ask questions about the things that appear to be the same, but are actually handled differently
 3. Build a system and see when it cracks
 
-The above set of rules, as explained by the professor, are also the rules that we unknowingly apply while trying to learning anything new or trying to build something. We also are, in a very simplied form, an expert systems trying to learn about things.
+The above set of rules, as explained by the professor, are also the rules that we unknowingly apply while trying to learning anything new or trying to build something. We also are, in a very simplied form, an expert system trying to learn about things.
 
