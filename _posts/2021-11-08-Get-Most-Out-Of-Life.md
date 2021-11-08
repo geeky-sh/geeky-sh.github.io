@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to get most out of our lives
+title: How to get most out of every situation in life
 description: My learnings on how to get most out of every situation in life
 ---
 
