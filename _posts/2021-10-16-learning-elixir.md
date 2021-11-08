@@ -4,7 +4,7 @@ title: Learning Elixir I
 description: Go through some of the useful concepts in Elixir
 ---
 
-I really like the new concepts that I came across while learning [Elixir](https://elixir-lang.org/) programming language. I have a python / ruby background and elixir was the first flavor of functional languaage that I learnt. I would like to list all my learnings over here so that this can be the sole article I can refer to if I want to quickly read up elixir basics.
+I really like the new concepts that I came across while learning [Elixir](https://elixir-lang.org/) programming language. I have a python / ruby background and elixir was the first flavor of functional languaage that I learnt. I would like to list all my learnings over here so that this can be the article I can refer to if I want to quickly read up elixir basics.
 
 And, I will be taking the approach of learning by example so that it is very clear and easy to understand and remember.
 
