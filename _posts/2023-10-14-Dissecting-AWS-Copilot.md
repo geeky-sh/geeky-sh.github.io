@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dissecting AWS Copilot
-description: Understanding what AWS Copilot builds under the hood
+description: Understanding what AWS Copilot does under the hood
 ---
 
 [AWS copilot](https://aws.github.io/copilot-cli/) is a open-source tool built by the AWS team to containerized services on AWS.
