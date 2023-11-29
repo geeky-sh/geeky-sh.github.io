@@ -48,7 +48,13 @@ For outlook, under the settings of the specific email go to `View -> View messag
 
 ![Outlook](/images/outlook-email-check.png)
 
-Search for SPF, DKIM and DMARC terms over there to see the results of the validation checks performed.
+Search for SPF, DKIM and DMARC terms over there to see the results of the validation checks performed. It would look something like this:
+
+Gmail:
+![Gmail Check](/images/gmail-check-res.png)
+
+Outlook:
+![Outlook Check](/images/outlook-check-res.png)
 
 ## Sender Identity Verification
 
