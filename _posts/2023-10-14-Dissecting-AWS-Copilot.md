@@ -54,7 +54,7 @@ When a client sends a request using any device (browser, cli-tools, mobile, etc)
 
 ### Service Discovery
 - This Tool provides human readable strings to identify each service.
-- It used AWS Cloudmap under the hood to determine the right instance / task to direct the request to.
+- It uses AWS CloudMap under the hood to determine the right instance / task to direct the request to.
 
 ### Parameter Store (Systems Manager)
 - It is used to store secrets that are used in the application like `DB_PASSWORDS`, `GOOGLE_CLIENT_SECRET`, etc
