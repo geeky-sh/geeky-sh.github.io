@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Informative Links and Websites
-description: This page contains the list of informative links and websites which I found very useful.
+description: This page contains a list of informative links and websites which I found very useful.
 ---
 
 # List of Websites:

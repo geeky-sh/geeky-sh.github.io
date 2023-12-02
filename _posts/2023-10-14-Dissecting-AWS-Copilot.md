@@ -5,9 +5,9 @@ description: Understanding what AWS Copilot works under the hood
 comments: true
 ---
 
-[AWS copilot](https://aws.github.io/copilot-cli/) is an open-source tool built by the AWS team to containerise services on AWS.
+[AWS copilot](https://aws.github.io/copilot-cli/) is an open-source tool built by the AWS team to containerize services on AWS.
 
-For someone who gets overwhelmed by learning Cloud Infrastructure using Terraform, Cloudformation templates & using multiple services for load balancing, logging, secrets management, autoscaling, monitoring, CD pipelines etc, copilot can be a single go-to tool to manage all this in a simpler manner and provides a quicker way to achieve all this as well. However the major downside is that it is built only for managing containerized applications on AWS. It is a trade-off and you need to decide which solution suits you better at a particular moment.
+For someone who gets overwhelmed by learning Cloud Infrastructure using Terraform, Cloudformation templates & using multiple services for load balancing, logging, secrets management, autoscaling, monitoring, CD pipelines etc, copilot can be a single go-to tool to manage all this more simply and provides a quicker way to achieve all this as well. However, the major downside is that it is built only for managing containerized applications on AWS. It is a trade-off and you need to decide which solution suits you better at a particular moment.
 
 In this post, we will try to understand what copilot builds and how it works under the hood. We will try to get a high-level understanding of the purpose & working of each of the services.
 
@@ -25,11 +25,11 @@ In this post, we will try to understand what copilot builds and how it works und
 - **LB** - Load Balancer
 
 ## Request Flow
-As soon as the client sends a request to the server using the API, we will now go through what happens under the hood considering that your service is deployed via Copilot. Copilot allows the abilty to manage all the below resources using its cli-tool.
+As soon as the client sends a request to the server using the API, we will now go through what happens under the hood considering that your service is deployed via Copilot. Copilot allows the ability to manage all the below resources using its cli-tool.
 
 When a client sends a request using any device (browser, cli-tools, mobile, etc), the following happens:
-- In order to get the IP address, the client will ask for DNS
-- DNS will respond with the set of IP addresses which can be used to send the request. These IP addresses belong to the LB
+To get the IP address, the client will ask for DNS
+- DNS will respond with the set of IP addresses that can be used to send the request. These IP addresses belong to the LB
 - The request goes to LB, which determines the underlying instance to send the request to. This instance is running the actual application server.
 - This server takes in the request, uses DB and/or cache whatever is relevant to compute the response, logs the relevant messages required, formulates the response and returns it.
 
@@ -49,7 +49,7 @@ When a client sends a request using any device (browser, cli-tools, mobile, etc)
 ### Certificate Manager (ACM)
 - This utility is used to manage all the SSL certificates corresponding to the different public service endpoints we use.
 - Load Balancer also contains the map of all these certificates it needs to use while validating and responding to the request.
-- Adding or Modifying certificates is not provided via Copilot. It needs to be done manually. It only provides the ability to refer to a certificate while configurating a service.
+- Adding or Modifying certificates is not provided via Copilot. It needs to be done manually. It only provides the ability to refer to a certificate while configuring a service.
 
 ### Service Discovery
 - This Tool provides human-readable strings to identify each service.

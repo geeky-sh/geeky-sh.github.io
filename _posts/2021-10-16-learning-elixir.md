@@ -4,19 +4,19 @@ title: Learning Elixir I
 description: Go through some of the useful concepts in Elixir
 ---
 
-I really like the new concepts that I came across while learning [Elixir](https://elixir-lang.org/) programming language. I have a python / ruby background and elixir was the first flavor of functional languaage that I learnt. I would like to list all my learnings over here so that this can be the article I can refer to if I want to quickly read up elixir basics.
+I really like the new concepts that I came across while learning [Elixir](https://elixir-lang.org/) programming language. I have a Python/ruby background and Elixir was the first flavor of functional language that I learned. I would like to list all my learnings over here so that this can be the article I can refer to if I want to quickly read up on elixir basics.
 
 And, I will be taking the approach of learning by example so that it is very clear and easy to understand and remember.
 
 ## Recursion
 
-I am writing few variances of recursion over here. This will primarily help in understanding:
-1. How to convert and iterative solution to a recursive one.
+I am writing a few variances of recursion over here. This will primarily help in understanding:
+1. How to convert an iterative solution to a recursive one.
 2. How to write an efficient recursive function
 
-### To understand how to convert `for` loop into the recusive function
+### To understand how to convert `for` loop into the recursive function
 
-Problem - Iterate over first 100 numbers and calculate it’s sum:
+Problem - Iterate over the first 100 numbers and calculate their sum:
 
 ```elixir
 defmodule Mod do
@@ -32,11 +32,11 @@ end
 #### Steps of conversion:
 - Create a separate function for `for` loop.  (In the above example, it is `_calc_sum`)
 - One of the arguments in the function is the list that needs to be iterated
-- All the other variables that remain common across the for loop should be taken as rest of the arguments in the function.
+- All the other variables that remain common across the for loop should be taken as the rest of the arguments in the function.
 
 #### Approach 2:
 
-Problem - Given a list of strings, return a list of it’s uppercase version
+Problem - Given a list of strings, return a list of its uppercase version
 
 ```elixir
 defmodule Test do
@@ -72,7 +72,7 @@ defmodule Test do
 end
 ```
 
-### To understand difference between inefficient and efficient (tail) recursion
+### To understand the difference between inefficient and efficient (tail) recursion
 
 ```elixir
 defmodule TestRecursion do
@@ -87,9 +87,9 @@ end
 
 #### Info:
 
-- The `inefficient` function adds stacktrace of the calls recursively to compute the final output.
-- The efficient tail recursion doesn’t add stacktrace. Instead it just calls same function again. Internally, it just shifts the pointer to the beginning of the function. This doesn’t involve any overhead.
-- To remember easily, consider the amount of memory one will need to have to execute `inefficient` function while for the `efficient` function it just needs to call the function recursively. The function takes the responsibility of managing state.
+- The `inefficient` function adds the stack trace of the calls recursively to compute the final output.
+- The efficient tail recursion doesn’t add stacktrace. Instead, it just calls the same function again. Internally, it just shifts the pointer to the beginning of the function. This doesn’t involve any overhead.
+- To remember easily, consider the amount of memory one will need to have to execute the `inefficient` function while for the `efficient` function, it just needs to call the function recursively. The function takes the responsibility of managing the state.
 - The efficient approach is called **Tail Recursion**. To know more about this, one can go [here](https://www.geeksforgeeks.org/tail-recursion/)
 
 ## Functions
@@ -269,16 +269,3 @@ end
 
 ## Other Important Info
 - Lists are internally represented as linked lists and they are not the same as array. So, going to the nth element of the linked list is not O(1) time
-
-
-
-
-
-
-
-
-
-
-
-
-
