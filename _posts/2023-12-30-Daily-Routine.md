@@ -13,7 +13,7 @@ For years, I have been putting in persistent effort in forming a routine and sti
 
 The good part, however, in all this is my firm and irrefutable belief that routine is the key to having a fulfilling day. While that are a lot of other factors that come into play in determining the success of a day, completing a routine gives us a strong boost towards achieving that. It is like having a strong opening partnership in the game of Cricket. Openers, when they give a blazing start to the game, provide an intense confidence boost to the rest of the batsmen coming after them, allowing them to play more freely and confidently.
 
-Next, I will go into the important constituents of the routine which I think are important in today's day and age.
+Next, I will go into the constituents of a routine that I think are important in today's day and age.
 
 As part of having a routine, I think waking up early, at a self-decided hour plays an important role in determining how the rest of our day plays out. Firstly, it gives us more time to ourselves. In an increasingly connected world where every second of our day is spent doing something - be it working, commuting, spending time with our loved ones, reading and following the lives of our virtual connections, and even after all that spend the last chunks of our restive time in endlessly scrolling on social media, navigating and swiping the lives of total strangers - all this is led to us having no time for ourselves. Thus, an early morning's earned silence plays a very crucial part in providing us with the motivation and strength to tackle any and every difficulty hurled at us during the day.
 
